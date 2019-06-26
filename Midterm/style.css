@@ -1,0 +1,47 @@
+h1 {
+  font-family: cursive;
+  text-align: center;
+}
+
+#http {
+  background-color: #B23850;
+  height: 100vh;
+  padding-top: 5px;
+}
+
+#html {
+  background-color: #3B8BEB;
+  height: 100vh;
+  padding-top: 5px;
+}
+
+#css {
+  background-color: #2e8b57;
+  height: 100vh;
+  padding-top: 5px;
+}
+
+.home h1 {
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 100px;
+}
+
+.home li {
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 4px;
+}
+
+.home ul {
+  margin-left:0;
+  padding-left:0;
+}
+
+.home li:hover {
+  transform: scale(1.2);
+  color; #f7f7f7;
+  -webkit-text-stroke: 1px yellow;
+}
