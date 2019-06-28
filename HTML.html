@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="gen/css/styles.css">
+<head>
+<meta charset="UTF-8">
+<title>Web Technology 2019 </title>
+    
+<link href="Gen/img/logo.png" rel="icon">
+<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    
+</head>
+<body>
+
+<div class = "LOGO">
+<a href = "index.html"><img class="LOGO" src="Gen/img/logo.png" alt="" height="100" width="200"></a>
+</div>
+<div class ="Image" >
+	<div class ="container" >
+		<div class = "Topnav">
+			<a href="Index.html">HOME</a> 
+			<a href="Http.html">HTTP</a> 
+			<a class = "active" href="HTML.html">HTML</a> 
+			<a href="CSS.html">CSS</a>
+			<!--<a href="finals.html">Finals</a>-->
+		</div>
+	</div>
+</div>
+    <br>
+<div class="sidenav1">
+  <button class="dropdown-btn">HTML 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+      <h1>Hypertext Markup Language(HTML)</h1>
+      <ul>
+      <li>Language used to markup documents (i.e. web pages) in the WWW</li>
+          <ul>
+          <li>Structure (and content)</li>
+          <li>Presentation (mostly deprecated in favor of style sheets)</li>
+          </ul>
+      </ul>
+  </div>
+</div>
+    
+<br>
+    
+    <div class="sidenav1">
+  <button class="dropdown-btn">Versions 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <h1>Versions</h1>
+      <ul>
+          <ul>
+          <li>HTML 2.0, 3.2, 4.0</li>
+          <li>HTML 4.01</li>
+              <ul>
+                    <li><b>Strict</b> – deprecated</li>
+                    <li><b>Transitional</b> – still make use the deprecated</li>
+                    <li><b>Frameset</b> – using frames</li>
+              </ul>
+          <li>HTML 5 (working draft)</li>
+          </ul>
+      </ul>
+  </div>
+</div>
+    <br>
+    <div class="sidenav1">
+  <button class="dropdown-btn">Head 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">Body 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">Extensible Hypertext Markup Language 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">Basic differences between HTML and XHTML 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">XHTML Doc. Components 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">XHTML Elements 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">Dropdown 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">Dropdown 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+        <div class="sidenav1">
+  <button class="dropdown-btn">Dropdown 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <p>asasasa</p>
+        <p>asasasa</p>
+        <p>asasasa</p>
+  </div>
+</div>
+    <br>
+    
+<div class="main">
+
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<div class="footer">
+	<footer>
+		<p> Project Course </p>
+		</footer>
+	</div>	
+
+</body>
+</html>
